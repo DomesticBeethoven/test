@@ -138,7 +138,7 @@
          <div type="abstract" xml:id="abstract">
             <p>One of the largest barriers to digital musicology is the time required to create an
                encoded music file. While tools exist to automate parts of the process, most of the
-               symbolic content–pitches and rhythms–still needs to be entered manually, note by
+               symbolic content—pitches and rhythms—still needs to be entered manually, note by
                note. To facilitate the creation of corpora for digital analysis, we have developed a
                procedure for encoding only the portions of a score relevant to a particular study.
                These encodings can then be extended at a later time, by any scholar who has access
@@ -158,12 +158,11 @@
          <div xml:id="firstdiv">
             <head>Introduction: Encoding as Bottleneck</head>
             <p>Computing languages and encoding standards are often said to be designed for human
-                  readability.<note xml:id="ftn1" n="1"><p>A pair of widely circulated quotes in the
-                     programming world attest to this aim: <soCalled>Any fool can write code that a
-                        computer can understand. Good programmers write code that humans can
-                        understand.</soCalled> - Martin Fowler; <soCalled>Programs must be written
-                        for people to read, and only incidentally for machines to
-                        execute.</soCalled> - Harold Abelson.</p></note> However, when attempting to
+                  readability.<note xml:id="ftn1" n="1"><p>A pair of widely circulated quotes in the programming world attest to this aim: <soCalled>Any
+                        fool can write code that a computer can understand. Good programmers write
+                        code that humans can understand.</soCalled> —Martin Fowler;
+                        <soCalled>Programs must be written for people to read, and only incidentally
+                        for machines to execute.</soCalled> —Harold Abelson.</p></note> However, when attempting to
                grasp the contents of a digital file, the fact that some information might require
                some human reasoning does not make the file’s meaning opaque. For instance, if we
                encounter the self-closing tag <gi>body</gi> in a valid MEI document, we can make
@@ -278,23 +277,23 @@
          <div xml:id="seconddiv">
             <head>Encoding Methods</head>
             <p>In the context of the project, we developed two methods to facilitate the selective
-               encoding of scores. Both of the methods make use of the <gi>samplingDeclaration</gi>
-               element. This element originates in TEI, where it is used in the
-                  <gi>encodingDescription</gi> element to describe the criteria and methods used in
+               encoding of scores. Both of the methods make use of the <gi>samplingDecl</gi>
+               (sampling declaration) element. This element originates in TEI, where it is used in
+               the <gi>encodingDescription</gi> element to describe the criteria and methods used in
                compiling texts for a corpus or collection. It was transferred to MEI unchanged and
                allows only paragraph and heading elements. It can be extended with a few attributes,
                but it is a fairly simple element that contains mostly text.</p>
             <div xml:id="FirstMethod">
                <head>First Method</head>
                <p>For the first method, we have modified the structure of the <gi>samplingDecl</gi>
-                  element (sampling declaration). Instead of just defining the encoding practice, we
-                  wanted it to provide a comprehensive listing of encoded and unencoded sections of
-                  the source work in the header, similar to how the notesStatement acts as a parent
-                  element to collect individual annotation elements.</p>
+                  element. Instead of just defining the encoding practice, we wanted it to provide a
+                  comprehensive listing of encoded and unencoded sections of the source work in the
+                  header, similar to how the notesStatement acts as a parent element to collect
+                  individual annotation elements.</p>
                <p>The introduced or repurposed elements for this method are the following:</p>
                <list rend="bulleted">
-                  <item><gi>samplingDeclaration</gi>: The samplingDeclaration contains a collection
-                     of sample and gap elements that represent all parts of a source.</item>
+                  <item><gi>samplingDecl</gi>: The sampling declaration contains a collection of
+                     sample and gap elements that represent all parts of a source.</item>
                   <item><gi>section</gi>: The section element delineates a part of the music we are
                      encoding and gives it an xml:id. This distinguishes arbitrary segments of
                      music.</item>
@@ -363,22 +362,24 @@
                <p>All content within the body of a selective encoding should be contained in at
                   least one section so that it can be referenced in the header. But there is a lot
                   of flexibility in this method: The sections themselves can point to the samples
-                  and gaps in the <gi>samplingDeclaration</gi>. It is also possible to name the author of the
-                  encoded sections either in the <gi>body</gi> itself or in the <gi>samplingDeclaration</gi> by
-                  pointing up to the <gi>responsibilityStatement</gi>. The extent of the gap can be described
-                  either with an attribute in the body or with an extent element in the
-                  SamplingDeclaration. If the extent attribute is used and contains a number, it
-                  should be accompanied by a unit attribute. It is possible to use the reason
-                  attribute here to declare that the reason for the gap is not in the source itself,
-                  but rather is the result of editorial decisions. However, this should not be
-                  necessary, since the header already contains this information.</p>
-               <p>The <gi>samplingDeclaration</gi> itself has not only a short paragraph about the sampling
-                  method, but also a <gi>sampleList</gi>—an element we created for collating the encoded and
-                  unencoded sections of a score. It lists the <gi>sample</gi> and <gi>gap</gi> elements that are
-                  linked to the <gi>section</gi>s in the <gi>body</gi>. It is possible to add attributes that give the
-                  reason for choosing a sample or define the particular aspect of the music that is
-                  encoded (for example only the piano part). If there is more than one encoder, it
-                  is possible to link each sample to the <gi>responsibilityStatement</gi> and add the
+                  and gaps in the <gi>samplingDecl</gi>. It is also possible to name the author of
+                  the encoded sections either in the <gi>body</gi> itself or in the
+                     <gi>samplingDecl</gi> by pointing up to the <gi>responsibilityStatement</gi>.
+                  The extent of the gap can be described either with an attribute in the body or
+                  with an extent element in the sampling declaration. If the extent attribute is
+                  used and contains a number, it should be accompanied by a unit attribute. It is
+                  possible to use the reason attribute here to declare that the reason for the gap
+                  is not in the source itself, but rather is the result of editorial decisions.
+                  However, this should not be necessary, since the header already contains this
+                  information.</p>
+               <p>The <gi>samplingDecl</gi> itself has not only a short paragraph about the sampling
+                  method, but also a <gi>sampleList</gi>—an element we created for collating the
+                  encoded and unencoded sections of a score. It lists the <gi>sample</gi> and
+                     <gi>gap</gi> elements that are linked to the <gi>section</gi>s in the
+                     <gi>body</gi>. It is possible to add attributes that give the reason for
+                  choosing a sample or define the particular aspect of the music that is encoded
+                  (for example only the piano part). If there is more than one encoder, it is
+                  possible to link each sample to the <gi>responsibilityStatement</gi> and add the
                   encoding date here. This provides a comprehensive overview of the encoding status,
                   making it easy to retrieve the data.</p>
             </div>
@@ -387,7 +388,7 @@
                <p>The second method is a simpler approach that works within the current MEI
                   structures and seeks to clarify and refine existing documentation by using element
                   entailments and text descriptions to identify and retrieve encoding information
-                  from an MEI file. The usage of the <gi>samplingDeclaration</gi> here is in line with its
+                  from an MEI file. The usage of the <gi>samplingDecl</gi> here is in line with its
                   intended use for TEI: it entails a few sentences explaining the editorial reasons
                   governing the selections—which remain the same for every encoding in the
                   project—rather than giving the specific reason for choosing each sample. This
@@ -482,34 +483,37 @@
             <head>Conclusion: Different Paths to FAIR</head>
             <p>An important benefit of designing and formalizing an approach to selective encodings
                is that it facilitates the digital study of new repertoires, including works and
-               composers that may otherwise go unexamined. As Anna Kijas (2018) points out, many
-               currently available encodings are a result of University initiatives and funding
-               strategies that focus on composers already well represented in existing editions and
-               music scholarship.<note xml:id="ftn7" n="7"><p><soCalled>Universities often focus
-                        their efforts on large-scale digitization of hegemonic texts … which again
-                        reinforces canonization. The collections in libraries and archives,
-                        primarily those in first-world countries with access to digital imaging
-                        equipment and digital library infrastructure, as well as institutional or
-                        grant funding, perpetuate not only canonization, but also
-                           <emph>colonization</emph>.</soCalled>(Kijas, 2018).</p></note>Such
-               projects affirm and propagate a canon dominated by Western musical traditions, with
-               white male composers as exemplars.</p>
-            <p>The designation of <emph>selective encoding</emph> is also an acknowledgment that
-               digital research methods often extend and enrich their source material during the
-               course of a project. When dealing with material that is found in untranscribed—and,
-               as Lewis et al. (2023) note, often minimally cataloged—documents, an iterative
-               approach is often the only practical means by which research can proceed. The digital
-               resources produced by such projects–at each stage–are selectively encoded music
-               editions, and like all digital editions, they are always capable of being enriched,
-               no matter what degree of <soCalled>completeness</soCalled> is achieved. This is an
-               important point in the context of the FAIR principles, a key and often required
-               component of open scholarship. Nick Thieberger writes that we don’t often think of
-               our own work as being archivable resources; however, if your work creates new 
-               documents…[ or ] provides a new interpretation, then that
-               interpretation and those documents need to be made available to the audience you are
-               writing for. Creating well-formed <soCalled>archive-ready</soCalled> research
-               materials makes them reusable, and archiving ensures that … others can benefit from
-               work you have done. (Thierberger 2018, 235)</p>
+               composers that may otherwise go unexamined (Lewis et al. 2023). As Anna Kijas (2018)
+               points out, many currently available encodings are a result of University initiatives
+               and funding strategies that focus on composers already well represented in existing
+               editions and music scholarship.<note xml:id="ftn7" n="7">
+                  <p>Universities often focus their efforts on large-scale digitization of hegemonic
+                     texts … which again reinforces canonization. The collections in libraries and
+                     archives, primarily those in first-world countries with access to digital
+                     imaging equipment and digital library infrastructure, as well as institutional
+                     or grant funding, perpetuate not only canonization, but also
+                        <emph>colonization</emph>.(Kijas, 2018).</p>
+               </note>Such projects affirm and propagate a canon dominated by Western musical
+               traditions, with white male composers as exemplars.</p>
+            <p>The designation of
+                  <?oxy_comment_start author="Mark" timestamp="20240217T121052+0100" comment="This should be quotes rather than italics
+"?><emph>selective
+                  encoding</emph><?oxy_comment_end?>  is also an acknowledgment that digital
+               research methods often extend and enrich their source material during the course of a
+               project. As Lewis et al. also note, when dealing with material that is found in
+               untranscribed documents, an iterative approach is often the only practical means by
+               which research can proceed. The digital resources produced by such projects, at each
+               stage, are selectively encoded music editions, and like all digital editions, they
+               are always capable of being enriched, no matter what degree of
+                  <soCalled>completeness</soCalled> is achieved. This is an important point in the
+               context of the FAIR principles, a key and often required component of open
+               scholarship. Nick Thieberger writes that we don’t often think of our own work as
+               being archivable resources; however, if your work creates new documents…[ or ]
+               provides a new interpretation, then that interpretation and those documents need to
+               be made available to the audience you are writing for. Creating well-formed
+                  <soCalled>archive-ready</soCalled> research materials makes them reusable, and
+               archiving ensures that … others can benefit from work you have done. (Thierberger
+               2018, 235)</p>
             <p>To facilitate reuse of materials, we maintain that clear details regarding the
                encoded portions of the work referenced by the title statement should be presented in
                an easily findable and easily readable location in the document. As stated in the
