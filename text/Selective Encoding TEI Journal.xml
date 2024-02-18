@@ -157,32 +157,20 @@
       <body>
          <div xml:id="firstdiv">
             <head>Introduction: Encoding as Bottleneck</head>
-            <p>Computing languages and encoding standards are often said to be designed for human
-                  readability.<note xml:id="ftn1" n="1"><p>A pair of widely circulated quotes in the programming world attest to this aim: <soCalled>Any
-                        fool can write code that a computer can understand. Good programmers write
-                        code that humans can understand.</soCalled> —Martin Fowler;
-                        <soCalled>Programs must be written for people to read, and only incidentally
-                        for machines to execute.</soCalled> —Harold Abelson.</p></note> However, when attempting to
-               grasp the contents of a digital file, the fact that some information might require
-               some human reasoning does not make the file’s meaning opaque. For instance, if we
-               encounter the self-closing tag <gi>body</gi> in a valid MEI document, we can make
-               some assumptions about that document’s content and function: it most likely serves as
-               a record of the metadata for a musical work, designed for bibliographic cataloging.
-               Therefore, a plain-language statement in the header declaring this function is not
-               strictly necessary.</p>
-            <p>But what happens in the following use case? As Lewis, et al. (2023, 796) describe,
-               the nature of research in the humanities entails circling back to the source material
-               in an iterative process, with each pass bringing fresh perspectives as scholars
-               return with new facts, new data, and new conjectures. In the digital version of this
-               scenario, research often includes a collection process in which transcriptions are
-               made of music sources for inclusion in a data set. This collection process will
-               likely be accomplished incrementally, as a project’s needs dictate and its resources
-               permit. The ability to accommodate incomplete sources, Lewis concludes, ought to be
-               an explicit requirement for MIR tool development. Since workflows and methodologies
-               in digital musicology are still evolving, it may not yet be necessary to firmly
-               advocate for the institution of any single procedure. Naturally, however, it is
-               necessary for researchers on any project to come to an agreement on an encoding
-               scheme, and equally important, to be able to articulate its rationale.</p>
+            <p>As Lewis, et al. (2023, 796) describe, the nature of research in the humanities
+               entails circling back to the source material in an iterative process, with each pass
+               bringing fresh perspectives as scholars return with new facts, new data, and new
+               conjectures. In the digital version of this scenario, research often includes a
+               collection process in which transcriptions are made of music sources for inclusion in
+               a data set. This collection process will likely be accomplished incrementally, as a
+               project’s needs dictate and its resources permit. The ability to accommodate
+               incomplete sources, Lewis concludes, ought to be an explicit requirement for MIR tool
+               development. Since workflows and methodologies in digital musicology are still
+               evolving, it may not yet be necessary to firmly advocate for the institution of any
+               single procedure to facilitate this goal. Naturally, however, it is necessary for
+               researchers on any project to come to an agreement on an encoding scheme that
+               accommodates this use case, and equally important, to be able to articulate its
+               rationale.</p>
             <p>As anyone who has ever done any music encoding knows, transcribing a score into a
                digital format is a laborious, time consuming process. Transcribing multiple scores
                for the creation of a viable workset then becomes a significant barrier for digital
