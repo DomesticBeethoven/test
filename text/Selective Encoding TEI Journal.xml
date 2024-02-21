@@ -14,11 +14,11 @@
                   <forename>Mark</forename>
                   <surname>Saccomano</surname>
                </name>
-               <affiliation>Mark Saccomano is a music theorist at <orgName>Paderborn University</orgName> and a
-                  <roleName>research associate</roleName> for the Beethoven in the House project. He previously
-                  taught music history and music theory at Columbia University in New York and was
-                  adjunct professor of music at Montclair University in New Jersey.
-                 </affiliation>
+               <affiliation>Mark Saccomano is a music theorist at <orgName>Paderborn
+                     University</orgName> and a <roleName>research associate</roleName> for the
+                  Beethoven in the House project. He previously taught music history and music
+                  theory at Columbia University in New York and was adjunct professor of music at
+                  Montclair University in New Jersey. </affiliation>
                <email>mark.saccomano@uni-paderborn.de</email>
             </author>
             <author>
@@ -26,11 +26,11 @@
                   <forename>Lisa</forename>
                   <surname>Rosendahl</surname>
                </name>
-               <affiliation>Lisa Rosendahl is a <roleName>research associate</roleName> on the project Beethovens
-                  Werkstatt at <orgName>Beethoven-Haus Bonn</orgName>. With master’s degrees in history and musicology,
-                  as well as a certificate in digital humanities, she brings an interdisciplinary
-                  approach to her research on music and social history of the eighteenth and
-                  nineteenth centuries.</affiliation>
+               <affiliation>Lisa Rosendahl is a <roleName>research associate</roleName> on the
+                  project Beethovens Werkstatt at <orgName>Beethoven-Haus Bonn</orgName>. With
+                  master’s degrees in history and musicology, as well as a certificate in digital
+                  humanities, she brings an interdisciplinary approach to her research on music and
+                  social history of the eighteenth and nineteenth centuries.</affiliation>
                <email>rosendahl@beethovens-werkstatt.de</email>
             </author>
             <author>
@@ -39,9 +39,9 @@
                   <surname>Lewis</surname>
                </name>
                <affiliation>David Lewis trained as a historical musicologist at Kings College,
-                  London. He is currently a <roleName>researcher</roleName> at the <orgName>University of Oxford e-Research Centre</orgName>
-                  and lecturer in Computer Science at
-                  Goldsmiths.</affiliation>
+                  London. He is currently a <roleName>researcher</roleName> at the
+                     <orgName>University of Oxford e-Research Centre</orgName> and lecturer in
+                  Computer Science at Goldsmiths.</affiliation>
                <email>david.lewis@oerc.ox.ac.uk</email>
             </author>
             <author>
@@ -49,9 +49,10 @@
                   <forename>Andrew</forename>
                   <surname>Hankinson</surname>
                </name>
-               <affiliation>Andrew Hankinson is a <roleName>researcher</roleName> and <roleName>software developer</roleName> for the <orgName>RISM
-                  Digital Center in Bern</orgName>. He has held positions on the technical group and board of
-                  the Music Encoding Initiative.</affiliation>
+               <affiliation>Andrew Hankinson is a <roleName>researcher</roleName> and
+                     <roleName>software developer</roleName> for the <orgName>RISM Digital Center in
+                     Bern</orgName>. He has held positions on the technical group and board of the
+                  Music Encoding Initiative.</affiliation>
                <email>andrew.hankinson@rism.digital</email>
             </author>
             <author>
@@ -62,8 +63,8 @@
                <affiliation>Johannes Kepper studied music and media science as well as computer
                   science at the Musicology Seminar Detmold/Paderborn and the University of
                   Paderborn. Since 2006 he has been active in the development of the Music Encoding
-                  Initiative (MEI) and is the <roleName>German PI</roleName> of the Beethoven in the House
-                  project.</affiliation>
+                  Initiative (MEI) and is the <roleName>German PI</roleName> of the Beethoven in the
+                  House project.</affiliation>
                <email>kepper@edirom.de</email>
             </author>
             <author>
@@ -71,12 +72,12 @@
                   <forename>Kevin</forename>
                   <surname>Page</surname>
                </name>
-               <affiliation>Kevin Page is an <roleName>associate faculty member</roleName> and <roleName>senior researcher</roleName> at the
-                  <orgName>University of Oxford e-Research Centre</orgName>. He is co-founder of the Digital Libraries
-                  for Musicology conference, teaches digital musicology and linked data methods for
-                  the Master’s programme in Digital Scholarship at Oxford, and is the <roleName>UK PI</roleName> of the
-                  Beethoven in the House
-                  project.</affiliation>
+               <affiliation>Kevin Page is an <roleName>associate faculty member</roleName> and
+                     <roleName>senior researcher</roleName> at the <orgName>University of Oxford
+                     e-Research Centre</orgName>. He is co-founder of the Digital Libraries for
+                  Musicology conference, teaches digital musicology and linked data methods for the
+                  Master’s programme in Digital Scholarship at Oxford, and is the <roleName>UK
+                     PI</roleName> of the Beethoven in the House project.</affiliation>
                <email>kevin.page@oerc.ox.ac.uk</email>
             </author>
             <author>
@@ -86,8 +87,8 @@
                </name>
                <affiliation>Elisabete Shibata focuses on the connection between music and new
                   technologies. She is currently pursuing her PhD under Prof. Dr. Frank Hentschel at
-                  the <orgName>University of Cologne</orgName>, where she is investigating the digital representation
-                  of arrangements using Beethoven’s music as an
+                  the <orgName>University of Cologne</orgName>, where she is investigating the
+                  digital representation of arrangements using Beethoven’s music as an
                   example.</affiliation>
                <email>shibata@beethoven.de</email>
             </author>
@@ -130,7 +131,7 @@
          </textClass>
       </profileDesc>
       <revisionDesc>
-         <change><!-- Description of a change to the article; we recommend using @who and @when. --></change>
+         <change/>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -204,8 +205,8 @@
                developed to work with the project’s <ref type="bibl" target="#Kepper2023">web
                   application</ref> that adds digital annotations to encoded music.<note
                   xml:id="ftn2" n="2"><p>The Beethoven in the House Annotator App. <ref
-                        target="https://domestic-beethoven.eu/annotapp/"
-                        >https://domestic-beethoven.eu/annotapp/></ref>.</p></note> While quite
+                     target="https://web.archive.org/web/20240221123031/https://domestic-beethoven.eu/annotapp/"
+                     >https://web.archive.org/web/20240221123031/https://domestic-beethoven.eu/annotapp/</ref>.</p></note> While quite
                distinct in their approach to metadata, both methods aim at hewing as close as
                possible to FAIR principles for data management (<ref type="bibl"
                   target="#Wilkinson2016">Wilkinson et al. 2016</ref>).<note xml:id="ftn3" n="3"
@@ -423,7 +424,7 @@
                   created using an XSLT and then loaded into the Edirom application
                      Cartographer-Online.<note xml:id="ftn6" n="6"><p><ref
                            target="https://github.com/Edirom/cartographer-app"
-                        />https://github.com/Edirom/cartographer-app</p></note> The Cartographer app
+                        /></p></note> The Cartographer app
                   not only recognises the measures in the image, but is also able to associate them
                   with the measures of an MEI encoding.</p>
                <figure xml:id="example4">
@@ -597,25 +598,23 @@
          <div type="bibliography">
             <listBibl>
                <bibl xml:id="GOFAIR">
-                  <title>FAIR Principles</title>
-                  <publisher>GO FAIR</publisher>
-                  <ref target="https://www.go-fair.org/fair-principles/"
-                     >https://www.go-fair.org/fair-principles/</ref>
-                  <date>February 20, 2024</date>. </bibl>
+                  <title level="u">FAIR Principles</title>. <publisher>GO FAIR</publisher>. <ref
+                     target="https://www.go-fair.org/fair-principles/"
+                     >https://www.go-fair.org/fair-principles/</ref> (<date>February 20,
+                  2024</date>).</bibl>
                <bibl xml:id="Kepper2023">
                   <author>Kepper, J.</author>
-                  <title level="m">DomesticBeethoven/bith-annotator: Release 2023–04</title>
-                  <publisher>Zenodo</publisher>
-                  <date>April 28, 2023</date>
-                  <ref target="https://doi.org/10.5281/zenodo.7877741"
+                  <title level="m">DomesticBeethoven/bith-annotator: Release 2023–04</title>.
+                     <publisher>Zenodo</publisher>, <date>April 28, 2023</date>. <ref
+                     target="https://doi.org/10.5281/zenodo.7877741"
                      >https://doi.org/10.5281/zenodo.7877741</ref>. </bibl>
                <bibl xml:id="Kijas2018">
                   <author>Kijas, A.</author>
-                  <title level="u">What does the data tell us? Representation, canon, and music
-                     encoding</title>
-                  <orgName>Music Encoding Conference 2018</orgName>
-                  <date>May 24, 2018</date>
-                  <pubPlace>Baltimore</pubPlace>. </bibl>
+                  <title level="u">What does the data tell us?: Representation, canon, and music
+                     encoding.</title> Keynote at <orgName>Music Encoding Conference 2018</orgName>,
+                     <pubPlace>Maryland</pubPlace>, <date>May 24, 2018</date>. <ref
+                     target="http://dx.doi.org/10.17613/yp01-mw44"
+                     >http://dx.doi.org/10.17613/yp01-mw44</ref>. </bibl>
                <bibl xml:id="BitH2023">
                   <author>Lewis, D.</author>
                   <author>Shibata, E</author>
@@ -626,30 +625,24 @@
                   <author>Saccomano, M.</author>
                   <author>Siegert, C.</author>
                   <title level="a">Supporting musicological investigations with information
-                     retrieval tools: an iterative approach to data collection.</title>
-                  <title level="m">Proceedings of the 24th International Society for Music
-                     Information Retrieval Conference (ISMIR)</title>
-                  <pubPlace>Milan</pubPlace>
-                  <date>2023</date>. </bibl>
+                     retrieval tools: an iterative approach to data collection.</title> In <title
+                     level="j">Proceedings of the 24th International Society for Music Information
+                     Retrieval Conference (ISMIR)</title>, <pubPlace>Milan</pubPlace>,
+                     <date>2023</date>.</bibl>
                <bibl xml:id="Thieberger2018">
                   <author>Thieberger, N.</author>
                   <title level="a">Research Methods in Recording Oral Tradition: Choosing Between
-                     the Evanescence of the Digital or the Senescence of the Analog</title>
-                  <title level="m">Research Methods for the Digital Humanities</title>
-                  <biblScope>233–241</biblScope>
-                  <publisher>Springer International Publishing</publisher>
-                  <date>2018</date>
-                  <ref target="https://doi.org/10.1007/978-3-319-96713-4_13"
-                     >doi:10.1007/978-3-319-96713-4_13</ref>. </bibl>
-               <bibl xml:id="Wilkinson2016">
-                  <author>Wilkinson, M. D. et al.</author>
+                     the Evanescence of the Digital or the Senescence of the Analog.</title> In
+                     <title level="m">Research Methods for the Digital Humanities</title>, edited by
+                     <editor>Lewis Levenberg</editor>, <editor>Tai Neilson</editor>, and
+                     <editor>David Rheams</editor>, <biblScope>233–241</biblScope>.
+                     <publisher>Springer International Publishing</publisher>, <date>2018</date>.
+                     <idno type="DOI">doi:10.1007/978-3-319-96713-4_13</idno>.</bibl>
+               <bibl xml:id="Wilkinson2016">. <author>Wilkinson, M. D. et al.</author>
                   <title level="a">The FAIR Guiding Principles for scientific data management and
-                     stewardship.</title>
-                  <title level="m">Sci. Data</title>
-                  <biblScope>3:160018</biblScope>
-                  <ref target="https://doi.org/10.1038/sdata.2016.18"
-                     >doi:10.1038/sdata.2016.18</ref>
-                  <date>2016</date>. </bibl>
+                     stewardship</title>. <title level="m">Scientific Data</title>, <biblScope
+                     unit="issue">3</biblScope>:<biblScope unit="part">60018</biblScope>,
+                     <date>2016</date>. <idno type="DOI">doi:10.1038/sdata.2016.18</idno> . </bibl>
             </listBibl>
          </div>
       </back>
