@@ -155,14 +155,13 @@
                the adoption of one approach over another.</p>
          </div>
          <div type="acknowledgements">
-            <p>The project <soCalled>Beethoven in the House: Digital Studies of Domestic Music Arrangements</soCalled>
                investigated domestic music arrangements of the nineteenth Century through two
                complementary studies, a digital research environment developed
                alongside the studies, and the innovative application of digital musicology
                methods within this environment. Beethoven-Haus Bonn, Oxford e-Research Center, RISM Digital,
                and Paderborn University partnered for this project. The project ran from 2020 to 2023 and was jointly funded by DFG (429039809) and
                AHRC (AH/T01279X/1). For more information and to view our publications, please visit the project website at
-               <ref target="https://domestic-beethoven.eu"></ref>https://domestic-beethoven.eu.</p>
+               <ref target="https://domestic-beethoven.eu"></ref></p>
          </div>
       </front>
       <body>
@@ -510,13 +509,13 @@
                context of the FAIR principles, a key and often required component of open
                scholarship. Nick Thieberger writes that we don’t often think of our own work as
                being archivable resources; however, <cit>
-                  <quote source="#quoteref4">if your work creates new documents…[or] provides a new
+                  <quote source="#quoteref4">if your work creates new documents<gap/> <supplied>or</supplied> provides a new
                      interpretation, then that interpretation and those documents need to be made
                      available to the audience you are writing for. Creating well-formed
                         <soCalled>archive-ready</soCalled> research materials makes them reusable,
-                     and archiving ensures that … others can benefit from work you have
+                     and archiving ensures that <gap/> others can benefit from work you have
                      done.</quote>
-                  <ref type="bibl" xml:id="quoteref4" target="#Thieberger2018"/>
+                  <ref xml:id="quoteref4" type="bibl" target="#Thieberger2018">Thierberger 2018</ref>
                </cit></p>
             <p>To facilitate reuse of materials, we maintain that clear details regarding the
                encoded portions of the work referenced by the title statement should be presented in
