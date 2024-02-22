@@ -638,7 +638,7 @@
                      <editor>David Rheams</editor>, <biblScope>233–241</biblScope>.
                      <publisher>Springer International Publishing</publisher>, <date>2018</date>.
                      <idno type="DOI">doi:10.1007/978-3-319-96713-4_13</idno>.</bibl>
-               <bibl xml:id="Wilkinson2016">. <author>Wilkinson, M. D. et al.</author>
+               <bibl xml:id="Wilkinson2016"> <author>Wilkinson, M. D. et al.</author>
                   <title level="a">The FAIR Guiding Principles for scientific data management and
                      stewardship</title>. <title level="m">Scientific Data</title>, <biblScope
                      unit="issue">3</biblScope>:<biblScope unit="part">60018</biblScope>,
