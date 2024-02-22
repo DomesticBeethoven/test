@@ -212,8 +212,8 @@
             <p>What we present here are two different methods for creating valid MEI editions of
                musical works in which only a portion of the work has been encoded—and which can then
                be reused and enriched for other purposes in subsequent research projects. Both were
-               developed to work with the project’s <ref type="bibl" target="#Kepper2023">web
-                  application</ref> that adds digital annotations to encoded music.<note
+               developed to work with the the project’s web
+               application (<ref type="bibl" target="#Kepper2023">Kepper 2023</ref>) that adds digital annotations to encoded music.<note
                   xml:id="ftn2" n="2"><p>The Beethoven in the House Annotator App. <ref
                      target="https://web.archive.org/web/20240221123031/https://domestic-beethoven.eu/annotapp/"
                      >https://web.archive.org/web/20240221123031/https://domestic-beethoven.eu/annotapp/</ref>.</p></note> While quite
