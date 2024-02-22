@@ -237,8 +237,8 @@
             <p>We introduce both these methods within the context of a single digital musicology
                project: <emph>Beethoven in the House</emph>, a study of Beethoven’s symphonic works
                arranged for performance in the home.<note xml:id="ftn4" n="4"><p>
-                     <ref target="https://domestic-beethoven.eu/"
-                        >https://domestic-beethoven.eu/</ref>
+                  <ref target="https://web.archive.org/web/20240221123301/https://domestic-beethoven.eu/"
+                     >https://web.archive.org/web/20240221123301/https://domestic-beethoven.eu/</ref>
                   </p></note> Our project serves as a case study that illustrates some of the
                assumptions that underlie different encoding methods, and how project-based
                considerations can lead to the adoption of one approach over another. As is the case
@@ -649,7 +649,7 @@
                   <author>Thieberger, N.</author>
                   <title level="a">Research Methods in Recording Oral Tradition: Choosing Between
                      the Evanescence of the Digital or the Senescence of the Analog.</title> In
-                     <title level="m">Research Methods for the Digital Humanities</title>, edited by
+                     <title level="j">Research Methods for the Digital Humanities</title>, edited by
                      <editor>Lewis Levenberg</editor>, <editor>Tai Neilson</editor>, and
                      <editor>David Rheams</editor>, <biblScope>233–241</biblScope>.
                      <publisher>Springer International Publishing</publisher>, <date>2018</date>.
