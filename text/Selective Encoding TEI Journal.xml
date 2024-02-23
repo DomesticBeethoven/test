@@ -155,14 +155,17 @@
                the adoption of one approach over another.</p>
          </div>
          <div type="acknowledgements">
-            <p>The project <title type="main">Beethoven in the House: Digital Studies of Domestic Music Arrangements</title>
-               investigated domestic music arrangements of the nineteenth century through two
-               complementary studies, a digital research environment developed
-               alongside the studies, and the innovative application of digital musicology
-               methods within this environment. <orgName>Forschungszentrum <soCalled>Beethoven-Archiv</soCalled>, Beethoven-Haus Bonn</orgName>, <orgName>Oxford e-Research Centre, University of Oxford</orgName>, <orgName>RISM Digital</orgName>,
-               and <orgName>Paderborn University</orgName> partnered for this project. The project ran from 2020 to 2023 and was jointly funded by DFG (429039809) and
-               AHRC (AH/T01279X/1). For more information and to view our publications, please visit the project website at
-               <ref target="https://domestic-beethoven.eu"></ref></p>
+            <p>The project <title type="main">Beethoven in the House: Digital Studies of Domestic
+                  Music Arrangements</title> investigated domestic music arrangements of the
+               nineteenth century through two complementary studies, a digital research environment
+               developed alongside the studies, and the innovative application of digital musicology
+               methods within this environment. <orgName>Forschungszentrum
+                     <soCalled>Beethoven-Archiv</soCalled>, Beethoven-Haus Bonn</orgName>,
+                  <orgName>Oxford e-Research Centre, University of Oxford</orgName>, <orgName>RISM
+                  Digital</orgName>, and <orgName>Paderborn University</orgName> partnered for this
+               project. The project ran from 2020 to 2023 and was jointly funded by DFG (429039809)
+               and AHRC (AH/T01279X/1). For more information and to view our publications, please
+               visit the project website at <ref target="https://domestic-beethoven.eu"/></p>
          </div>
       </front>
       <body>
@@ -175,7 +178,7 @@
                digital version of this scenario, research often includes a collection process in
                which transcriptions are made of sources for inclusion in a data set. This collection
                process will likely be accomplished incrementally, as a project’s needs dictate and
-               its resources permit. The ability to accommodate incomplete sources, Lewis concludes,
+               its resources permit. The ability to accommodate incomplete sources, the authors conclude,
                ought to be an explicit requirement for MIR tool development. Since workflows and
                methodologies in digital musicology are still evolving, it may not yet be necessary
                to firmly advocate for the institution of any single procedure to facilitate this
@@ -212,13 +215,19 @@
             <p>What we present here are two different methods for creating valid MEI editions of
                musical works in which only a portion of the work has been encoded—and which can then
                be reused and enriched for other purposes in subsequent research projects. Both were
-               developed to work with the project’s web
-               application (<ref type="bibl" target="#Kepper2023">Kepper 2023</ref>) that adds digital annotations to encoded music.<note
-                  xml:id="ftn2" n="2"><p>The Beethoven in the House Annotator App. <ref
-                     target="https://web.archive.org/web/20240221123031/https://domestic-beethoven.eu/annotapp/"
-                     >https://web.archive.org/web/20240221123031/https://domestic-beethoven.eu/annotapp/</ref>.</p></note> While quite
-               distinct in their approach to metadata, both methods aim at hewing as close as
-               possible to FAIR principles for data management (<ref type="bibl"
+               developed to work with the project’s web application (<ref type="bibl"
+                  target="#Kepper2023">Kepper 2023</ref>) that adds digital annotations to encoded
+               music.
+               
+       <!-- <note xml:id="ftn2" n="2">
+                <p>The Beethoven in the House Annotator App. 
+                   <ref target="https://web.archive.org/web/20240221123031/https://domestic-beethoven.eu/annotapp/"
+                      >https://web.archive.org/web/20240221123031/https://domestic-beethoven.eu/annotapp/</ref>.
+                </p>
+             </note>  -->
+               
+               While quite distinct in their approach to metadata, both methods aim at hewing as
+               close as possible to FAIR principles for data management (<ref type="bibl"
                   target="#Wilkinson2016">Wilkinson et al. 2016</ref>).<note xml:id="ftn3" n="3"
                      ><p>FAIR: Findability, Accessibility, Interoperability, Reuse. <ref
                         target="https://www.go-fair.org/fair-principles/"
@@ -433,10 +442,9 @@
                   example. In our project the empty layers for the sections without content were
                   created using an XSLT and then loaded into the Edirom application
                      Cartographer-Online.<note xml:id="ftn6" n="6"><p><ref
-                           target="https://github.com/Edirom/cartographer-app"
-                        /></p></note> The Cartographer app
-                  not only recognises the measures in the image, but is also able to associate them
-                  with the measures of an MEI encoding.</p>
+                           target="https://github.com/Edirom/cartographer-app"/></p></note> The
+                  Cartographer app not only recognises the measures in the image, but is also able
+                  to associate them with the measures of an MEI encoding.</p>
                <figure xml:id="example4">
                   <egXML xmlns="http://www.tei-c.org/ns/Examples">
                      <section xml:id="m053a3dc0-d6db-428c-8a7e-928d12bc70cf" resp="#DM">
@@ -491,14 +499,15 @@
                currently available encodings are a result of University initiatives and funding
                strategies that focus on composers already well represented in existing editions and
                music scholarship.<note xml:id="ftn7" n="7">
-                  <p>Universities often focus their efforts on large-scale digitization of hegemonic
-                     texts … which again reinforces canonization. The collections in libraries and
-                     archives, primarily those in first-world countries with access to digital
-                     imaging equipment and digital library infrastructure, as well as institutional
-                     or grant funding, perpetuate not only canonization, but also
-                        <emph>colonization</emph>.(Kijas, 2018).</p>
-               </note>Such projects affirm and propagate a canon dominated by Western musical
-               traditions, with white male composers as exemplars.</p>
+                  <quote source="#quoteref6">Universities often focus their efforts on large-scale
+                     digitization of hegemonic texts <gap/> which again reinforces canonization. The
+                     collections in libraries and archives, primarily those in first-world countries
+                     with access to digital imaging equipment and digital library infrastructure, as
+                     well as institutional or grant funding, perpetuate not only canonization, but
+                     also <emph>colonization</emph>.</quote> (<ref type="bibl" xml:id="quoteref6"
+                     target="#Kijas2018">Kijas, 2018</ref>).</note>Such projects affirm and
+               propagate a canon dominated by Western musical traditions, with white male composers
+               as exemplars.</p>
             <p>The designation of <q>selective encoding</q> is also an acknowledgment that digital
                research methods often extend and enrich their source material during the course of a
                project. As Lewis et al. also note, when dealing with material that is found in
@@ -510,13 +519,14 @@
                context of the FAIR principles, a key and often required component of open
                scholarship. Nick Thieberger writes that we don’t often think of our own work as
                being archivable resources; however, <cit>
-                  <quote source="#quoteref4">if your work creates new documents<gap/> <supplied>or</supplied> provides a new
-                     interpretation, then that interpretation and those documents need to be made
-                     available to the audience you are writing for. Creating well-formed
-                        <soCalled>archive-ready</soCalled> research materials makes them reusable,
-                     and archiving ensures that <gap/> others can benefit from work you have
-                     done.</quote>
-                  <ref xml:id="quoteref4" type="bibl" target="#Thieberger2018">Thierberger 2018</ref>
+                  <quote source="#quoteref4">if your work creates new documents<gap/>
+                     <supplied>or</supplied> provides a new interpretation, then that interpretation
+                     and those documents need to be made available to the audience you are writing
+                     for. Creating well-formed <soCalled>archive-ready</soCalled> research materials
+                     makes them reusable, and archiving ensures that <gap/> others can benefit from
+                     work you have done.</quote>
+                  <ref xml:id="quoteref4" type="bibl" target="#Thieberger2018">Thierberger
+                     2018</ref>
                </cit></p>
             <p>To facilitate reuse of materials, we maintain that clear details regarding the
                encoded portions of the work referenced by the title statement should be presented in
@@ -600,7 +610,9 @@
                transcriptions for future researchers. While a project may have needs that can be
                easily addressed with additional data structures, it can be worthwhile to consider
                instead adapting to the data model of an existing standard, thus better ensuring that
-               a project’s research contributions can be shared and its data reused. <note>The project encodings are published on Zenodo and can be reused (<ref type="bibl" target="#Rosendahl2023">Rosendahl 2023</ref>).</note></p>
+               a project’s research contributions can be shared and its data reused. <note>The
+                  project encodings are published on Zenodo and can be reused (<ref type="bibl"
+                     target="#Rosendahl2023">Rosendahl 2023</ref>).</note></p>
          </div>
       </body>
 
@@ -622,7 +634,7 @@
                   <author>Kijas, A.</author>
                   <title level="u">What does the data tell us?: Representation, canon, and music
                      encoding.</title> Keynote at <orgName>Music Encoding Conference 2018</orgName>,
-                     <pubPlace>Maryland</pubPlace>, <date>May 24, 2018</date>. <ref
+                     <pubPlace>College Park, Maryland</pubPlace>, <date>May 24, 2018</date>. <ref
                      target="http://dx.doi.org/10.17613/yp01-mw44"
                      >http://dx.doi.org/10.17613/yp01-mw44</ref>. </bibl>
                <bibl xml:id="BitH2023">
@@ -641,8 +653,9 @@
                      <date>2023</date>.</bibl>
                <bibl xml:id="Rosendahl2023">
                   <author>Rosendahl, L.</author>
-                  <title level="m">Beethoven in the House: Selective Encodings of Arrangements of Beethoven’s opp. 91, 92, and 93</title>.
-                  <publisher>Zenodo</publisher>, <date>April 28, 2023</date>. <ref
+                  <title level="m">Beethoven in the House: Selective Encodings of Arrangements of
+                     Beethoven’s opp. 91, 92, and 93</title>. <publisher>Zenodo</publisher>,
+                     <date>April 28, 2023</date>. <ref
                      target="https://doi.org/10.5281/zenodo.7875059"
                      >https://doi.org/10.5281/zenodo.7875059</ref>. </bibl>
                <bibl xml:id="Thieberger2018">
@@ -654,7 +667,8 @@
                      <editor>David Rheams</editor>, <biblScope>233–241</biblScope>.
                      <publisher>Springer International Publishing</publisher>, <date>2018</date>.
                      <idno type="DOI">doi:10.1007/978-3-319-96713-4_13</idno>.</bibl>
-               <bibl xml:id="Wilkinson2016"> <author>Wilkinson, M. D. et al.</author>
+               <bibl xml:id="Wilkinson2016">
+                  <author>Wilkinson, M. D. et al.</author>
                   <title level="a">The FAIR Guiding Principles for scientific data management and
                      stewardship</title>. <title level="m">Scientific Data</title>, <biblScope
                      unit="issue">3</biblScope>:<biblScope unit="part">60018</biblScope>,
