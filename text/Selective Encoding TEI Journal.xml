@@ -614,7 +614,7 @@
                easily addressed with additional data structures, it can be worthwhile to consider
                instead adapting to the data model of an existing standard, thus better ensuring that
                a project’s research contributions can be shared and its data reused. <note>The
-                  project encodings are published on Zenodo and can be reused (<ref type="bibl"
+                  project encodings are published on Zenodo and are available for reuse (<ref type="bibl"
                      target="#Rosendahl2023">Rosendahl 2023</ref>).</note></p>
          </div>
       </body>
@@ -627,19 +627,19 @@
                      target="https://www.go-fair.org/fair-principles/"
                      >https://www.go-fair.org/fair-principles/</ref> (<date>February 20,
                   2024</date>).</bibl>
-               <bibl xml:id="Kepper2023">
+<!--               <bibl xml:id="Kepper2023">
                   <author>Kepper, J.</author>
                   <title level="m">DomesticBeethoven/bith-annotator: Release 2023–04</title>.
                      <publisher>Zenodo</publisher>, <date>April 28, 2023</date>. <ref
                      target="https://doi.org/10.5281/zenodo.7877741"
-                     >https://doi.org/10.5281/zenodo.7877741</ref>. </bibl>
+                     >https://doi.org/10.5281/zenodo.7877741</ref>. </bibl>-->
                <bibl xml:id="Kijas2018">
                   <author>Kijas, A.</author>
                   <title level="u">What does the data tell us?: Representation, canon, and music
                      encoding.</title> Keynote at <orgName>Music Encoding Conference 2018</orgName>,
-                     <pubPlace>College Park, Maryland</pubPlace>, <date>May 24, 2018</date>. <ref
-                     target="http://dx.doi.org/10.17613/yp01-mw44"
-                     >http://dx.doi.org/10.17613/yp01-mw44</ref>. </bibl>
+                     <pubPlace>College Park, Maryland</pubPlace>, <date>May 24, 2018</date>. doi:<idno
+                     type="doi"
+                     >10.17613/yp01-mw44</idno>. </bibl>
                <bibl xml:id="BitH2023">
                   <author>Lewis, D.</author>
                   <author>Shibata, E</author>
@@ -650,7 +650,7 @@
                   <author>Saccomano, M.</author>
                   <author>Siegert, C.</author>
                   <title level="a">Supporting musicological investigations with information
-                     retrieval tools: an iterative approach to data collection.</title> In <title
+                     retrieval tools: an iterative approach to data collection</title>. <title
                      level="j">Proceedings of the 24th International Society for Music Information
                      Retrieval Conference (ISMIR)</title>, <pubPlace>Milan</pubPlace>,
                      <date>2023</date>.</bibl>
@@ -664,12 +664,12 @@
                <bibl xml:id="Thieberger2018">
                   <author>Thieberger, N.</author>
                   <title level="a">Research Methods in Recording Oral Tradition: Choosing Between
-                     the Evanescence of the Digital or the Senescence of the Analog.</title> In
+                     the Evanescence of the Digital or the Senescence of the Analog</title>.
                      <title level="j">Research Methods for the Digital Humanities</title>, edited by
                      <editor>Lewis Levenberg</editor>, <editor>Tai Neilson</editor>, and
                      <editor>David Rheams</editor>, <biblScope>233–241</biblScope>.
                      <publisher>Springer International Publishing</publisher>, <date>2018</date>.
-                     <idno type="DOI">doi:10.1007/978-3-319-96713-4_13</idno>.</bibl>
+                     <idno type="doi">10.1007/978-3-319-96713-4_13</idno>.</bibl>
                <bibl xml:id="Wilkinson2016">
                   <author>Wilkinson, M. D. et al.</author>
                   <title level="a">The FAIR Guiding Principles for scientific data management and
