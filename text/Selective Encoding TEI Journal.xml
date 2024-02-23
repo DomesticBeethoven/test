@@ -155,17 +155,14 @@
                the adoption of one approach over another.</p>
          </div>
          <div type="acknowledgements">
-            <p>The project <title type="main">Beethoven in the House: Digital Studies of Domestic
-                  Music Arrangements</title> investigated domestic music arrangements of the
-               nineteenth century through two complementary studies, a digital research environment
-               developed alongside the studies, and the innovative application of digital musicology
-               methods within this environment. <orgName>Forschungszentrum
-                     <soCalled>Beethoven-Archiv</soCalled>, Beethoven-Haus Bonn</orgName>,
-                  <orgName>Oxford e-Research Centre, University of Oxford</orgName>, <orgName>RISM
-                  Digital</orgName>, and <orgName>Paderborn University</orgName> partnered for this
-               project. The project ran from 2020 to 2023 and was jointly funded by DFG (429039809)
-               and AHRC (AH/T01279X/1). For more information and to view our publications, please
-               visit the project website at <ref target="https://domestic-beethoven.eu"/></p>
+            <p>The project <title type="main">Beethoven in the House: Digital Studies of Domestic Music Arrangements</title>
+               investigated domestic music arrangements of the nineteenth century through two
+               complementary studies, a digital research environment developed
+               alongside the studies, and the innovative application of digital musicology
+               methods within this environment. <orgName>Forschungszentrum Beethoven-Archiv, Beethoven-Haus Bonn</orgName>, <orgName>Oxford e-Research Centre, University of Oxford</orgName>, <orgName>RISM Digital</orgName>,
+               and <orgName>Paderborn University</orgName> partnered for this project. The project ran from 2020 to 2023 and was jointly funded by DFG (429039809) and
+               AHRC (AH/T01279X/1). For more information and to view our publications, please visit the project website at
+               <ref target="https://domestic-beethoven.eu"></ref></p>
          </div>
       </front>
       <body>
@@ -218,14 +215,14 @@
                developed to work with the project’s web application (<ref type="bibl"
                   target="#Kepper2023">Kepper 2023</ref>) that adds digital annotations to encoded
                music.
-               
+
        <!-- <note xml:id="ftn2" n="2">
-                <p>The Beethoven in the House Annotator App. 
+                <p>The Beethoven in the House Annotator App.
                    <ref target="https://web.archive.org/web/20240221123031/https://domestic-beethoven.eu/annotapp/"
                       >https://web.archive.org/web/20240221123031/https://domestic-beethoven.eu/annotapp/</ref>.
                 </p>
              </note>  -->
-               
+
                While quite distinct in their approach to metadata, both methods aim at hewing as
                close as possible to FAIR principles for data management (<ref type="bibl"
                   target="#Wilkinson2016">Wilkinson et al. 2016</ref>).<note xml:id="ftn3" n="3"
@@ -246,8 +243,8 @@
             <p>We introduce both these methods within the context of a single digital musicology
                project: <emph>Beethoven in the House</emph>, a study of Beethoven’s symphonic works
                arranged for performance in the home.<note xml:id="ftn4" n="4"><p>
-                     <ref target="https://domestic-beethoven.eu/"
-                        >https://domestic-beethoven.eu/</ref>
+                  <ref target="https://web.archive.org/web/20240221123301/https://domestic-beethoven.eu/"
+                     >https://web.archive.org/web/20240221123301/https://domestic-beethoven.eu/</ref>
                   </p></note> Our project serves as a case study that illustrates some of the
                assumptions that underlie different encoding methods, and how project-based
                considerations can lead to the adoption of one approach over another. As is the case
@@ -662,7 +659,7 @@
                   <author>Thieberger, N.</author>
                   <title level="a">Research Methods in Recording Oral Tradition: Choosing Between
                      the Evanescence of the Digital or the Senescence of the Analog.</title> In
-                     <title level="m">Research Methods for the Digital Humanities</title>, edited by
+                     <title level="j">Research Methods for the Digital Humanities</title>, edited by
                      <editor>Lewis Levenberg</editor>, <editor>Tai Neilson</editor>, and
                      <editor>David Rheams</editor>, <biblScope>233–241</biblScope>.
                      <publisher>Springer International Publishing</publisher>, <date>2018</date>.
